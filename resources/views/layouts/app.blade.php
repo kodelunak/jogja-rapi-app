@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@yield('title', config('app.name', 'App'))</title>
+    <title>@yield('title', config('app.name', 'App')) - Jogja</title>
     <!-- Vite: CSS -->
     @if (file_exists(public_path('mix-manifest.json')))
         <!-- fallback if mix is used -->

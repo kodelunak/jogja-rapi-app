@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - RAPI PVC</title>
+    <title>Login - RAPI PVC - Jogja</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- SweetAlert2 -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -62,7 +62,7 @@
                          alt="Logo RAPI PVC">
                 </div>
                 
-                <h1 class="text-4xl font-bold mb-4">RAPI PVC</h1>
+                <h1 class="text-4xl font-bold mb-4">RAPI PVC - Jogja</h1>
                 <p class="text-lg text-indigo-100 mb-8">Sistem Manajemen Keuangan</p>
                 
                 <div class="space-y-4 text-left">
@@ -146,7 +146,7 @@
             </form>
             
             <div class="mt-6 text-center text-xs sm:text-sm text-gray-500">
-                © {{ date('Y') }} RAPI PVC. All rights reserved.
+                © {{ date('Y') }} RAPI PVC Jogja. All rights reserved.
             </div>
         </div>
     </div>

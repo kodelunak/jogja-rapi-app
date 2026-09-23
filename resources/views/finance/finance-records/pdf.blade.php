@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laporan Keuangan - {{ \Carbon\Carbon::parse($periode . '-01')->format('F Y') }}</title>
+    <title>Laporan Keuangan - {{ \Carbon\Carbon::parse($periode . '-01')->format('F Y') }} - Jogja</title>
     <style>
         * {
             margin: 0;

@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Laporan Master Produk</title>
+    <title>Laporan Master Produk - Jogja</title>
     <style>
         body {
             font-family: Arial, sans-serif;

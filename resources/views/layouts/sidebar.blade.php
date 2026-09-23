@@ -9,7 +9,7 @@
                     <img src="{{ asset('images/logo-rapi.png') }}" alt="Logo" class="h-16 w-16 object-contain" />
                 </div>
                 <div x-show="!sidebarCollapsed" class="leading-tight flex-1">
-                  <div class="text-lg font-bold tracking-tight text-slate-800">RAPI</div>
+                  <div class="text-lg font-bold tracking-tight text-slate-800">RAPI - Jogja</div>
                     <div class="text-xs text-slate-500 font-medium">Plafon System</div>
                 </div>
             </div>
