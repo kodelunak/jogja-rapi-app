@@ -93,9 +93,11 @@
                                     <input type="text" name="invoice_number" id="invoice_number"
                                         value="{{ old('invoice_number') }}"
                                         class="flex-1 border-gray-300 rounded-md shadow-sm focus:ring-purple-500 focus:border-purple-500 sm:text-sm"
-                                        readonly placeholder="Klik Generate">
+                                        required placeholder="Masukkan nomor invoice">
+                                    {{-- Generate dinonaktifkan karena nomor invoice diisi manual.
                                     <button type="button" id="generate-invoice"
                                         class="px-3 py-1.5 bg-indigo-600 text-white rounded hover:bg-indigo-700">Generate</button>
+                                    --}}
                                 </div>
                             </div>
                         </div>
@@ -299,7 +301,7 @@
         grandEl.textContent = 'Rp ' + new Intl.NumberFormat('id-ID').format(total);
     }
 
-    // Generate invoice number
+    /* Generate invoice number (dinonaktifkan untuk input manual)
     document.getElementById('generate-invoice').addEventListener('click', function() {
         const now = new Date();
         const yy = String(now.getFullYear()).slice(-2);
@@ -313,6 +315,8 @@
         document.getElementById('invoice_number').value = `PB-${yy}${mm}${dd}-${rand}`;
         Swal.fire({ toast: true, position: 'top-end', icon: 'success', title: 'Nomor invoice berhasil digenerate', showConfirmButton: false, timer: 2000, timerProgressBar: true });
     });
+
+    */
 
     // Add item row
     addBtn.addEventListener('click', function() {
