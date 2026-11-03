@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Laporan Pembelian - Jogja</title>
+    <title>Laporan Pembelian - Atambua</title>
     <style>
         body {
             font-family: Arial, sans-serif;
